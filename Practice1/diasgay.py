@@ -1,0 +1,2 @@
+a = "Privet"
+print(a)
