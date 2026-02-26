@@ -1,0 +1,16 @@
+import re
+
+# ex 01
+re.findall(r"\d", "Вес: 75 кг")
+
+# ex 02
+re.findall(r"\D", "123a")
+
+# ex 03
+re.findall(r"\s", "Hello World")
+
+# ex 04
+re.findall(r"\w+", "Python_3.10!")
+
+# ex 05
+re.findall(r"\bcat\b", "category cat concatenate")
